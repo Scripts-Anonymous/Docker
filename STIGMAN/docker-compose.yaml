@@ -19,7 +19,7 @@ services:
     cap_add:
       - SYS_NICE  # workaround MySQL logging bug => mbind: Operation not permitted 
   api:
-    image: nuwcdivnpt/stig-manager:latest-ironbank
+    image: nuwcdivnpt/stig-manager:latest
     environment:
       - STIGMAN_OIDC_PROVIDER=http://auth:8080/auth/realms/stigman
       - STIGMAN_CLASSIFICATION=U
