@@ -1,4 +1,5 @@
 # STIG Manager docker-compose orchestration
+# https://github.com/NUWCDIVNPT/stig-manager
 
 version: '3.7'
 
